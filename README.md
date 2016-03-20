@@ -21,6 +21,14 @@ Add the `data-variant` attribute to the elements you want to test against, with 
     </div>
 ```
 
+Load JabaJS at the end of your script or inside a $(document).ready()
+
+```
+    <script type="text/javascript">
+        var jaba = new Jaba();
+    </script>
+</body>
+```
 Try it out by navigating to the page with the appropriate variants in a query string v=A, v=B etc. query string
 ```
 http://localhost/index.html?v=A

@@ -37,6 +37,6 @@ var Jaba = function () {
     var variant = hashTable.item("v");
 
     // Hide all attibutes with data-variant but not set 
-    $("[data-variant]").css("display", "none");
-    $('*[data-variant="' + variant + '"]').css("display", "block");
+    $("[data-variant]").hide();
+    $('*[data-variant="' + variant + '"]').show();
 }
