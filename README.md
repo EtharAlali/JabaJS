@@ -21,7 +21,7 @@ Add the `data-variant` attribute to the elements you want to test against, with 
     </div>
 ```
 
-Load JabaJS at the end of your script or inside a $(document).ready()
+Load JabaJS at the end of your script or inside a $(document).ready(). Thsi is optional.
 
 ```
     <script type="text/javascript">
