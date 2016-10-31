@@ -4,7 +4,7 @@
     var values = [];
 
     this.item = function (key) {
-        if (( key !== undefined ) && (key !== null))
+        if ((key !== undefined) && (key !== null))
             for (var i = 0; i < keys.length; i++)
                 if (keys[i].toUpperCase() === key.toUpperCase())
                     return values[i];
@@ -40,3 +40,7 @@ var Jaba = function () {
     $("[data-variant]").hide();
     $('*[data-variant="' + variant + '"]').show();
 }
+
+$(function () {
+    var jaba = new Jaba();
+});
