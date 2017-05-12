@@ -1,3 +1,5 @@
+[![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/etharalali?utm_source=github&utm_medium=button&utm_term=etharalali&utm_campaign=github)
+
 # JabaJS
 Really simple split-testing framework for web designers to perform A/B-tests (aka split tests, multivariate testing...) without needing to know how to code. It is super quick to get started and is not meant as a coder's framework.
 
